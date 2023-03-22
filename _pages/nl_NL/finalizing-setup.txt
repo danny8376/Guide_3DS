@@ -22,7 +22,7 @@ Het is niet aan te raden om het downloaden van een van deze applicaties over te 
 
 ### Compatibility Notes
 
-Als je **New 3DS** versie 2.1.0 was voor het volgen van deze handleiding, moet je je [NAND-backup herstellen](godmode9-usage#restoring-a-nand-backup) voordat je verder gaat.
+Als je **New 3DS** versie 2.1.0 was voor het volgen van deze handleiding, moet je je [NAND-backup herstellen](godmode9-usage#restoring-a-nand-backup) voordat je verder gaat. This likely doesn't apply to you unless you were following this guide in 2017.
 {: .notice--warning}
 
 Als je vorige CFW setup was gebaseerd op EmuNAND en je wilt de inhoud van je EmuNAND/RedNAND verplaatsen naar SysNAND, Volg [EmuNAND verplaatsen](move-emunand) voor het volgen van deze pagina. Als je niet weet wat een EmuNAND is, dan is dit niet van toepassing op jou.
@@ -91,6 +91,7 @@ In this section, you will temporarily replace Download Play with Homebrew Launch
 1. Druk op (Home), en sluit dan Download Play af
 1. Open de Download Play app
 1. Nu zou je console de Homebrew Launcher moeten openen
+  + If your device is stuck on the loading splash screen, you are missing `boot.3dsx` from the root of your SD card
 
 #### Deel IV - RTC en DSP Setup
 
