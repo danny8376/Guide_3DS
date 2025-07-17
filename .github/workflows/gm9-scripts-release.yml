@@ -3,7 +3,7 @@ name: Release gm9 scripts
 on:
   push:
     branches: [ master, gm9-scripts-release ]
-    paths: [ '/docs/public/gm9_scripts/*' ]
+    #paths: [ '/docs/public/gm9_scripts/*' ]
   workflow_dispatch:
 
 jobs:
