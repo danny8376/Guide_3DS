@@ -20,14 +20,11 @@ jobs:
           tag: gm9-scripts
           force_push_tag: true
 
-      #- uses: actions/upload-artifact@v4
-      #  with:
-      #    name: gm9-scripts
-      #    path: docs/public/gm9_scripts/
-
-      - uses: ncipollo/release-action@v1
+      - uses: softprops/action-gh-release@v2
         with:
           allowUpdates: true
-          tag: gm9-scripts
+          name: GM9 Scripts
+          tag_name: gm9-scripts
           prerelease: true
-          artifacts: docs/public/gm9_scripts
+          overwrite_files: true
+          files: docs/public/gm9_scripts/*
