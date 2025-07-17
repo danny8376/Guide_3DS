@@ -23,7 +23,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: gm9-scripts
-          path: /docs/public/gm9_scripts/
+          path: docs/public/gm9_scripts/
 
       - uses: ncipollo/release-action@v1
         with:
